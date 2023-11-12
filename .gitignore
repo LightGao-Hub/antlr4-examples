@@ -1,0 +1,38 @@
+# maven ignore
+target/
+**/WEB-INF/classes/
+*.war
+*.zip
+*.tar
+.flattened-pom.xml
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+#*.xml
+
+
+# temp ignore
+logs/
+*.doc
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.versionsBackup
+
+# system ignore
+.DS_Store
+Thumbs.db
+/yushu-h5/yushu-rtos-h5/node_modules
+
+/out/
+/.idea/

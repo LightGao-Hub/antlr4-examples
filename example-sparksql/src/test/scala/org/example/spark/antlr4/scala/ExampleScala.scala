@@ -1,8 +1,6 @@
 package org.example.spark.antlr4.scala
 
-import org.apache.spark.SparkConf
-import org.apache.spark.sql.{SparkSession, SparkSessionExtensions}
-import org.apache.spark.sql.catalyst.parser.ParserInterface
+import org.apache.spark.sql.SparkSession
 import org.junit.Test
 
 class ExampleScala {
@@ -29,7 +27,7 @@ class ExampleScala {
 
   @Test
   def demoParser(): Unit = {
-
+    // TODO 创建SparkSQL的运行环境
     val spark = SparkSession
       .builder()
       .appName("Spark SQL basic example")
